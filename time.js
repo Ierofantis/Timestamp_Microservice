@@ -34,15 +34,7 @@ date = moment(req.params.date,"MMMM D, YYYY");
     'correct': date.format('MMMM DD, YYYY'),
     'unix': dateformat('X')
   });
-
 });
-
-
-
-
-
-
-
 
 var server = app.listen(8081, function () {
 
