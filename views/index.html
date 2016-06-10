@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Timestamp Micro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="time.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ </head>
+<body>
+
+<div class="container">
+  <div class="row">
+
+    <h1>API:Timestamp Microservice</h1>
+    <div class="cont">
+      <p>1) I can pass a string as a parameter, and it will check to see whether that string contains </p>
+      <p>either a unix timestamp or a natural language date (example: January 1, 2016)</p>
+      <p>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
+      <p>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
+    </div>
+    <div class="ex">
+      <h3>Example usage:</h3>
+      <p>/December%2015,%202015</p>
+      <p>/1450137600</p>
+      <h3>Example output:</h3>
+      <p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
